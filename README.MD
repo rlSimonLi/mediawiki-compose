@@ -21,8 +21,8 @@ This is an easy to use [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) Doc
 3. The `docker-compose.yaml` file includes a MariaDB container config, you can use it if you are not using an external DB. Otherwise, config the password in `docker-compose.yaml` and import the database data into the container. The data will presist after contianer shutdown.
 4. `docker compose up -d`
 
-## Hack it!
-Every MediaWiki deployment has its requirements, if the default patterns and configs aren't the best for your circumstances, you can modify it to your needs.
+## Customise it!
+Every MediaWiki deployment has its requirements, if the default patterns and configs aren't the best for your circumstances, feel free to modify it to your needs.
 
 # Architecture and Best Practices
 The compose deployment consists of the following containers:
