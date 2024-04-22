@@ -6,8 +6,9 @@ This is an easy to use [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) Doc
 1. Out of the box [QUIC/HTTP3](https://www.cloudflare.com/learning/performance/what-is-http3/) support
 2. Out of the box [Brotli](https://github.com/google/brotli) compression
 3. S3 (or S3 compatible services) for static resources storage
-4. Varnish for static caching
-5. Redis for object caching
+4. Visual Editor and Parsoid support
+5. Varnish for static caching
+6. Redis for object caching
 
 # Get Started
 1. Build the container images with:
